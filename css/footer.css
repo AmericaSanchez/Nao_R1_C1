@@ -1,0 +1,11 @@
+@import 'colors.css';
+
+
+.footer-logo{
+    height: 4rem;
+    margin: 1rem;
+}
+
+.footer-icons{
+    color: var(--bs-gray-dark);
+}
