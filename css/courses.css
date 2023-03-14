@@ -1,0 +1,51 @@
+@import 'colors.css';
+
+.card{
+    height: auto;
+    border-radius:10px;
+    background-color:#fff;
+    cursor:pointer;
+}
+
+.central-div{
+    display:flex;
+    justify-content:space-between;
+}
+
+
+input[type="button"], .bookmark-button{
+    background-color: white !important;
+    border: none !important; 
+    padding: 0 !important;}
+
+
+.gray-text{
+    color: gray !important;
+}
+
+.button-terciary{
+    border: solid 1px var(--bs-purple) !important ;
+    width: 100%;
+}
+
+.button-terciary:hover{
+    background-color: var(--bs-gray-200);
+}
+
+@media (min-width: 1200px){
+  
+}
+
+@media (min-width: 600px) {
+    .courses-row{
+        justify-content: space-around;
+    }
+  
+}
+
+@media (min-width: 300px) {
+    .courses-row{
+        padding: 2rem;
+        row-gap: 1rem;
+    }
+}

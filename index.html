@@ -1,191 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Caroline's Academy</title>
-        <link rel="icon" type="image/x-icon" href="assets/logo.svg" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <script src="https://kit.fontawesome.com/c5884f1126.js" crossorigin="anonymous"></script>
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-            <div class="container px-5">
-                <img src="assets/logo.svg" class="navbar-logo"/>
-                <a class="navbar-brand fw-bold" href="#page-top">Caroline's Academy</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="bi-list"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features">My courses</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Download</a></li>
-                    </ul>
-                    <input type="text" class="search-query" placeholder="Search">
-                </div>
-            </div>
-        </nav>
-   
-        <!-- Mashead header-->
-        <header class="masthead">
-                 <!-- Chipset -->
-        <div class="chipset">
-            <button type="button" class="btn button-green"><i class="fa-solid fa-money-bill"></i></button>
-            <button type="button" class="btn button-gray">Emprendedores</button>
-            <button type="button" class="btn button-gray">Financias en negocios</button>
-            <button type="button" class="btn button-yellow"><i class="fa-solid fa-piggy-bank"></i></button>
-            <button type="button" class="btn button-gray">Finanzas personales</button>
-            <button type="button" class="btn button-gray">Presupuestos</button>
-            <button type="button" class="btn button-pink"><i class="fa-solid fa-bitcoin-sign"></i></button>
-            <button type="button" class="btn button-gray">Criptomonedas</button>
-            <button type="button" class="btn button-gray">Dinero digital</button>
 
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Caroline's Academy</title>
+    <link rel="icon" type="image/x-icon" href="assets/logo.svg" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c5884f1126.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+        <div class="container px-5">
+            <img src="assets/logo.svg" class="navbar-logo" />
+            <a class="navbar-brand fw-bold" href="#page-top">Caroline's Academy</a>
         </div>
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                            <span class="display-1 lh-1 mb-3">🙌 Hola Amigos <br>
-                                Soy caroline y quiero enseñarte todo lo que se de </span>
+    </nav>
+
+    <!-- Mashead header-->
+    <header class="masthead">
+        <!-- Chipset -->
+        <div class="container text-center my-3">
+
+            <div class="row mx-auto my-auto justify-content-center">
+                <div id="recipeCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <button type="button" class="btn chip-green"><i class="fa-solid fa-money-bill"></i>
+                                Emprendedores</button>
+                        </div>
+                        <div class="carousel-item">
+                            <button type="button" class="btn button-gray">Impuestos</button>
+                        </div>
+                        <div class="carousel-item">
+                            <button type="button" class="btn button-gray">Financias en negocios</button>
+                        </div>
+                        <div class="carousel-item">
+                            <button type="button" class="btn chip-yellow"><i class="fa-solid fa-piggy-bank"></i>
+                                Finanzas personales</button>
+                        </div>
+                        <div class="carousel-item">
+                            <button type="button" class="btn button-gray">Inversiones</button>
+                        </div>
+                        <div class="carousel-item">
+                            <button type="button" class="btn button-gray">Ahorro</button>
+                        </div>
+                        <div class="carousel-item">
+                            <button type="button" class="btn chip-pink"><i class="fa-solid fa-bitcoin-sign"></i>
+                                Dinero digital</button>
+                        </div>
+                        <div class="carousel-item">
+                            <button type="button" class="btn button-gray">Criptomonedas</button>
+                        </div>
+                        <div class="carousel-item">
+                            <button type="button" class="btn button-gray">Dinero digital</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-lg-6 col-12">
+                            <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                                <span class="display-1 lh-1 mb-3">🙌 Hola Amigos <br>
+                                    Soy Caroline Y Quiero Enseñarte Todo Lo Que Se de </span>
                                 <span class="display-1 lh-1 mb-3 text-green">Finanzas. </span>
-                                <span class="display-1 lh-1 mb-3">Quieres aprender conmigo 😍 ? </span>
+                                <span class="display-1 lh-1 mb-3">Quieres Aprender Conmigo 😍 ? </span>
+                            </div>
+                        </div>
+                        <div class="masthead-device-mockup col-lg-6 col-12">
+                            <img class="img-fluid" src="assets/img/hero.svg" />
                         </div>
                     </div>
-                    <div class="col-lg-6">                
-                        <div class="masthead-device-mockup">
-                         <img class="hero-img" src="assets/img/hero.svg"/ >
-                        </div>
-                    </div>
                 </div>
-            </div>
-        </header>
-       
-        <!-- video section-->
-        <section class="bg-light">
-        
-        </section>
-      
-        <!-- Newsletter section-->
-        <section class="bg-gradient-primary-to-secondary" id="newsletter">
-            <div class="container px-5">
-                <span class="container px-5 col-lg-4">
-                    <h3 class="text-white display-1 lh-1 mb-4">
-                        Entera de de Nuevo contenido Suscribiendote a nuestro newsletter
-                    </h3>
-                </span>
-                <span class="container px-3">
-                    <form class="form-inline col-lg-8">
-                        <span class="form-group mb-2">
-                         <input type="text" class="form-control mb-2 col-lg-8" id="formGroupExampleInput" placeholder="Escribe tu email">
-                        </span>
-                        <span>
-                            <button type="submit" class="btn btn-secondary mb-2 col-lg-4">Suscribirse</button>
-                        </span>
-                      </form>
-                </span>
-               
+    </header>
 
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="bg-white text-center py-5">
-            <hr class="hr purple-hr" />
-            <div class="container px-5">
-                <img class="footer-logo" src="assets/logo.svg"/>
-                <h2>Caroline's Academy</h2>
-                <div class="text-black-50 small">
-                    <div class="mb-2">&copy; Copyright 2023 -  Caroline’s Academy.</div>
-                    <a class="footer-icons" href="#"><i class="fa-brands fa-tiktok"></i></a>
-                    <span class="mx-1">&middot;</span>
-                    <a class="footer-icons" href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <span class="mx-1">&middot;</span>
-                    <a class="footer-icons" href="#"><i class="fa-brands fa-youtube"></i></a>
+    <!-- video section-->
+    <section class="container">
+        <div class="display-1 lh-1 mb-5 title-header">Cursos </div>
 
+        <div class="row courses-row">
+
+            <div class="card  course-card col-12 col-lg-3 col-md-6">
+                <img src="https://img.freepik.com/foto-gratis/acercamiento-objetos-educacion-economia_23-2149113525.jpg?w=2000&t=st=1678742004~exp=1678742604~hmac=3e03d12b070b87c9f2e60b2f5d05a153fbf412476e42b7dd9f043abad1cbe8c4"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="central-div">
+                        <h5 class="card-title">Haz un presupuesto</h5>
+                        <input type="button" class="button-bookmark" id="button" value="♡" style="color:black" onclick="setColor(event, 'button', '#9f1ae2')"; data-count="1" />
+
+
+                    </div>
+                    <p class="card-text">En este curso aprenderás que es un presupuesto, como hacer uno y a seguirlo
+                        para triunfar en tus finanzas personales.</p>
+                    <ul class="list-group list-group-flush ">
+                        <li class="list-group-item gray-text"><i class="fa-solid fa-signal-fair"></i>Nivel: Intermedio
+                        </li>
+                        <li class="list-group-item gray-text">Categoria: Ahorro</li>
+                    </ul>
+                    <a href="#" class="btn button-terciary mt-3">Ver</a>
                 </div>
             </div>
-        </footer>
-        <!-- Feedback Modal-->
-        <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header bg-gradient-primary-to-secondary p-4">
-                        <h5 class="modal-title font-alt text-white" id="feedbackModalLabel">Send feedback</h5>
-                        <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+
+            <div class="card course-card col-12 col-lg-3 col-md-6">
+                <img src="https://img.freepik.com/foto-gratis/acercamiento-objetos-educacion-economia_23-2149113525.jpg?w=2000&t=st=1678742004~exp=1678742604~hmac=3e03d12b070b87c9f2e60b2f5d05a153fbf412476e42b7dd9f043abad1cbe8c4"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="central-div">
+                        <h5 class="card-title">Haz un presupuesto</h5>
+                        <input type="button" class="button-bookmark" id="button" value="♡" style="color:black" onclick="setColor(event, 'button', '#9f1ae2')"; data-count="1" />
+
                     </div>
-                    <div class="modal-body border-0 p-4">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>0p'
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
-                        </form>
-                    </div>
+                    <p class="card-text">En este curso aprenderás que es un presupuesto, como hacer uno y a seguirlo
+                        para triunfar en tus finanzas personales.</p>
+                    <ul class="list-group list-group-flush ">
+                        <li class="list-group-item gray-text"><i class="fa-solid fa-signal-fair"></i>Nivel: Intermedio
+                        </li>
+                        <li class="list-group-item gray-text">Categoria: Ahorro</li>
+                    </ul>
+                    <a href="#" class="btn button-terciary mt-3">Ver</a>
                 </div>
+            </div>
+
+            <div class="card course-card col-12 col-lg-3 col-md-6">
+                <img src="https://img.freepik.com/foto-gratis/acercamiento-objetos-educacion-economia_23-2149113525.jpg?w=2000&t=st=1678742004~exp=1678742604~hmac=3e03d12b070b87c9f2e60b2f5d05a153fbf412476e42b7dd9f043abad1cbe8c4"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="central-div">
+                        <h5 class="card-title">Haz un presupuesto</h5>
+                        <input type="button" class="button-bookmark" id="button" value="♡" style="color:black" onclick="setColor(event, 'button', '#9f1ae2')"; data-count="1" />
+
+                    </div>
+                    <p class="card-text">En este curso aprenderás que es un presupuesto, como hacer uno y a seguirlo
+                        para triunfar en tus finanzas personales.</p>
+                    <ul class="list-group list-group-flush ">
+                        <li class="list-group-item gray-text"><i class="fa-solid fa-signal-fair"></i>Nivel: Intermedio
+                        </li>
+                        <li class="list-group-item gray-text">Categoria: Ahorro</li>
+                    </ul>
+                    <a href="#" class="btn button-terciary mt-3">Ver</a>
+                </div>
+            </div>
+
+            <div class="card course-card col-12 col-lg-3 col-md-6">
+                <img src="https://img.freepik.com/foto-gratis/acercamiento-objetos-educacion-economia_23-2149113525.jpg?w=2000&t=st=1678742004~exp=1678742604~hmac=3e03d12b070b87c9f2e60b2f5d05a153fbf412476e42b7dd9f043abad1cbe8c4"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="central-div">
+                        <h5 class="card-title">Haz un presupuesto</h5>
+                        <input type="button" class="button-bookmark" id="button" value="♡" style="color:black" onclick="setColor(event, 'button', '#9f1ae2')"; data-count="1" />
+
+                    </div>
+                    <p class="card-text">En este curso aprenderás que es un presupuesto, como hacer uno y a seguirlo
+                        para triunfar en tus finanzas personales.</p>
+                    <ul class="list-group list-group-flush ">
+                        <li class="list-group-item gray-text"><i class="fa-solid fa-signal-fair"></i>Nivel: Intermedio
+                        </li>
+                        <li class="list-group-item gray-text">Categoria: Ahorro</li>
+                    </ul>
+                    <a href="#" class="btn button-terciary mt-3">Ver</a>
+                </div>
+            </div>
+
+            <div class="card  course-card col-12 col-lg-3 col-md-6">
+                <img src="https://img.freepik.com/foto-gratis/acercamiento-objetos-educacion-economia_23-2149113525.jpg?w=2000&t=st=1678742004~exp=1678742604~hmac=3e03d12b070b87c9f2e60b2f5d05a153fbf412476e42b7dd9f043abad1cbe8c4"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="central-div">
+                        <h5 class="card-title">Haz un presupuesto</h5>
+                        <input type="button" class="button-bookmark" id="button" value="♡" style="color:black" onclick="setColor(event, 'button', '#9f1ae2')"; data-count="1" />
+                    </div>
+                    <p class="card-text">En este curso aprenderás que es un presupuesto, como hacer uno y a seguirlo
+                        para triunfar en tus finanzas personales.</p>
+                    <ul class="list-group list-group-flush ">
+                        <li class="list-group-item gray-text"><i class="fa-solid fa-signal-fair"></i>Nivel: Intermedio
+                        </li>
+                        <li class="list-group-item gray-text">Categoria: Ahorro</li>
+                    </ul>
+                    <a href="#" class="btn button-terciary mt-3">Ver</a>
+                </div>
+            </div>
+
+            <div class="card  course-card col-12 col-lg-3 col-md-6">
+                <img src="https://img.freepik.com/foto-gratis/acercamiento-objetos-educacion-economia_23-2149113525.jpg?w=2000&t=st=1678742004~exp=1678742604~hmac=3e03d12b070b87c9f2e60b2f5d05a153fbf412476e42b7dd9f043abad1cbe8c4"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="central-div">
+                        <h5 class="card-title">Haz un presupuesto</h5>
+                        <input type="button" class="button-bookmark" id="button" value="♡" style="color:black" onclick="setColor(event, 'button', '#9f1ae2')"; data-count="1" />
+                    </div>
+                    <p class="card-text">En este curso aprenderás que es un presupuesto, como hacer uno y a seguirlo
+                        para triunfar en tus finanzas personales.</p>
+                    <ul class="list-group list-group-flush ">
+                        <li class="list-group-item gray-text"><i class="fa-solid fa-signal-fair"></i>Nivel: Intermedio
+                        </li>
+                        <li class="list-group-item gray-text">Categoria: Ahorro</li>
+                    </ul>
+                    <a href="#" class="btn button-terciary mt-3">Ver</a>
+                </div>
+            </div>
+
+            <div class="card  course-card col-12 col-lg-3 col-md-6">
+                <img src="https://img.freepik.com/foto-gratis/acercamiento-objetos-educacion-economia_23-2149113525.jpg?w=2000&t=st=1678742004~exp=1678742604~hmac=3e03d12b070b87c9f2e60b2f5d05a153fbf412476e42b7dd9f043abad1cbe8c4"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="central-div">
+                        <h5 class="card-title">Haz un presupuesto</h5>
+                        <input type="button" class="button-bookmark" id="button" value="♡" style="color:black" onclick="setColor(event, 'button', '#9f1ae2')"; data-count="1" />
+
+                    </div>
+                    <p class="card-text">En este curso aprenderás que es un presupuesto, como hacer uno y a seguirlo
+                        para triunfar en tus finanzas personales.</p>
+                    <ul class="list-group list-group-flush ">
+                        <li class="list-group-item gray-text"><i class="fa-solid fa-signal-fair"></i>Nivel: Intermedio
+                        </li>
+                        <li class="list-group-item gray-text">Categoria: Ahorro</li>
+                    </ul>
+                    <a href="#" class="btn button-terciary mt-3">Ver</a>
+                </div>
+            </div>
+
+            <div class="card  course-card col-12 col-lg-3 col-md-6">
+                <img src="https://img.freepik.com/foto-gratis/acercamiento-objetos-educacion-economia_23-2149113525.jpg?w=2000&t=st=1678742004~exp=1678742604~hmac=3e03d12b070b87c9f2e60b2f5d05a153fbf412476e42b7dd9f043abad1cbe8c4"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="central-div">
+                        <h5 class="card-title">Haz un presupuesto</h5> 
+                        <input type="button" class="button-bookmark" id="button" value="♡" style="color:black" onclick="setColor(event, 'button', '#9f1ae2')"; data-count="1" />
+                    </div>
+                    <p class="card-text">En este curso aprenderás que es un presupuesto, como hacer uno y a seguirlo
+                        para triunfar en tus finanzas personales.</p>
+                    <ul class="list-group list-group-flush ">
+                        <li class="list-group-item gray-text"><i class="fa-solid fa-signal-fair"></i>Nivel: Intermedio
+                        </li>
+                        <li class="list-group-item gray-text">Categoria: Ahorro</li>
+                    </ul>
+                    <a href="#" class="btn button-terciary mt-3">Ver</a>
+                </div>
+            </div>
+
+        </div>
+        <nav aria-label="Pagination">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- Newsletter section-->
+    <section class="bg-gradient-primary-to-secondary newsletter-container" id="newsletter">
+        <div class="col-12 col-lg-6">
+            <span class="text-white display-1 lh-1">
+                Enterate De Nuestro
+            </span>
+            <span class="display-1 lh-1 mb-4 text-yellow">
+                Nuevo contenido
+            </span>
+            <span class="text-white display-1 lh-1 mb-4">
+                Suscribiendote A Nuestro Newsletter.
+            </span>
+        </div>
+        <form class="form-inline col-lg-6 col-12">
+            <span class="form-group mb-2 newsletter-input">
+                <input type="text" class="form-control newsletter-input" id="formGroupExampleInput"
+                    placeholder="Escribe tu email">
+                <button type="submit" class="btn button-submit">Suscribirse</button>
+            </span>
+        </form>
+        </div>
+        </div>
+    </section>
+
+    <!-- Feedback Modal-->
+    <section class="container">
+        <div class="display-1 lh-1 mb-5 title-header">Contáctanos 💌</div>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label" for="validationCustom01">Escribe tu correo</label>
+                <input type="email" placeholder="tunombre@correo.com"
+                class="form-control" id="validationCustom01"  required>
+                <div class="valid-feedback">
+                  ¡Se ve bien!
+                </div>
+            </div>
+            <div class="mb-3">
+                <label  class="form-label">Asunto</label>
+                <input type="text" class="form-control" placeholder="Asunto del correo" required>
+            </div>
+            <div class="mb-3">
+                <label  class="form-label">Escribe tu mensaje</label>
+                <input type="textarea" class="form-control" placeholder="Máximo 500 carácteres" required>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Inscribirme al newsletter</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+    <!-- Footer-->
+    <footer class="bg-white text-center mb-3">
+        <hr class="hr purple-hr" />
+        <div class="container">
+            <img class="footer-logo" src="assets/logo.svg" />
+            <h2>Caroline's Academy</h2>
+            <div class="text-black-50 small">
+                <div class="mb-2">&copy; Copyright 2023 - Caroline’s Academy.</div>
+                <a class="footer-icons" href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <span class="mx-1">&middot;</span>
+                <a class="footer-icons" href="#"><i class="fa-brands fa-facebook"></i></a>
+                <span class="mx-1">&middot;</span>
+                <a class="footer-icons" href="#"><i class="fa-brands fa-youtube"></i></a>
+
             </div>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+    </footer>
+
+
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
 </html>

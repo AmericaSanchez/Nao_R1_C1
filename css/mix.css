@@ -8,29 +8,10 @@ color: var(--bs-indigo);
     color: var(--bs-green);
 }
 
-/* Chipset */
-.chipset{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0.5rem 4rem;
-    margin-bottom: 2rem;
+.text-yellow{
+    color: var(--bs-yellow);
 }
 
-.button-gray{
-    background-color:  var(--bs-gray-200) !important;
-}
-
-.button-green{
-    background-color: #1aa17857 !important;
-    color: var(--bs-teal) !important;
-}
-
-.button-yellow{
-    background-color: #ffc1076f !important;
-    color: var(--bs-yellow) !important;
-}
-
-.button-pink{
-    background-color: #d6338456 !important;
-    color: var(--bs-pink) !important;
+.title-header{
+    text-align: center !important;
 }
